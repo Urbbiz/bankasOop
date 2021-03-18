@@ -109,7 +109,7 @@ class Json
         return $id;
     }
 
-    public function accountNumber()   // Saskaiton Nr. generatorius
+    public static function accountNumber()   // Saskaiton Nr. generatorius
     {
         $checkedNum = '01';
         $bankCode = '88000';

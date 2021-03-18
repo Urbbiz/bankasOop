@@ -20,7 +20,7 @@
     </div>
     <div class="input">
         <label for="acc">Sąskaitos Numeris:</label>
-        <input type="text" readonly name="acc" placeholder="Sąskaitos Numeris" id="acc" value="">  
+        <input type="text" readonly name="acc" placeholder="Sąskaitos Numeris" id="acc" value="<?php echo Json::accountNumber()?>">  
         <!-- <span>Sąskaitos Numeris error</span> -->
     </div>
     <div class="input">
